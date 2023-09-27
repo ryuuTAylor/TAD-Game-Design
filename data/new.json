@@ -1,0 +1,586 @@
+{
+  "rooms": [
+    {
+      "id": "Earth",
+      "description": "Welcome to Earth! As a Cornell Magic Major, you have mastered the arts of interstellar travel! To graduate from Cornell with a diploma in Magic Major, you need to explore all the stars in the Universe through magic and safely return to Earth. Just yell out the ridiculously hard spell 'go (name of star)' (capitalized, no definite article because decent magicians don't need it!) and you will be there! Without further notice, you decided to kick off!",
+      "exits": [
+        {
+          "name": "Moon",
+          "room id": "Moon"
+        },
+        {
+          "name": "Venus",
+          "room id": "Venus"
+        },
+        {
+          "name": "Mars",
+          "room id": "Mars"
+        },
+        {
+          "name": "Sun",
+          "room id": "Death"
+        },
+        {
+          "name": "Mercury",
+          "room id": "Black Hole"
+        },
+        {
+          "name": "Earth",
+          "room id": "Earth"
+        },
+        {
+          "name": "Jupiter",
+          "room id": "Black Hole"
+        },
+        {
+          "name": "Saturn",
+          "room id": "Death"
+        },
+        {
+          "name": "Uranus",
+          "room id": "Death"
+        },
+        {
+          "name": "Neptune",
+          "room id": "Death"
+        },
+        {
+          "name": "Pluto",
+          "room id": "Death"
+        }
+      ]
+    },
+    {
+      "id": "Moon",
+      "description": "Nice try! You are on the Moon! You are excitingly taking pictures when you realized that you forgot to take your Magic Travel work sheet with you, the one that automatically keeps track of the stars you have been to! Hurry back, you still have time.",
+      "exits": [
+        {
+          "name": "Earth",
+          "room id": "Earth"
+        }
+      ]
+    },
+    {
+      "id": "Venus",
+      "description": "You wondered briefly why you chose to move towards the Sun instead of away from it, but you didn't let that thought linger around. Soon, you discovered that Venus spins slowly in the opposite direction from other planets you have been to. A thick atmosphere traps heat in a runaway greenhouse effect, so you used magic spell 'protego' to cool yourself down. You can either continue towards the Sun or trace your steps back.",
+      "exits": [
+        {
+          "name": "Sun",
+          "room id": "Black Hole"
+        },
+        {
+          "name": "Mercury",
+          "room id": "Mercury"
+        },
+        {
+          "name": "Venus",
+          "room id": "Venus"
+        },
+        {
+          "name": "Moon",
+          "room id": "Moon"
+        },
+        {
+          "name": "Earth",
+          "room id": "Earth"
+        },
+        {
+          "name": "Mars",
+          "room id": "Black Hole"
+        },
+        {
+          "name": "Jupiter",
+          "room id": "Death"
+        },
+        {
+          "name": "Saturn",
+          "room id": "Death"
+        },
+        {
+          "name": "Uranus",
+          "room id": "Death"
+        },
+        {
+          "name": "Neptune",
+          "room id": "Death"
+        },
+        {
+          "name": "Pluto",
+          "room id": "Death"
+        }
+      ]
+    },
+    {
+      "id": "Mercury",
+      "description": "The more you move towards the Sun, the hotter and steamier it gets. You searched in your magic storage ring and took out an ice-cream bar from Cornell Diary Bar. Alas, it melted instantly and you have to throw it away. You wondered whether you could survive if you move closer to the Sun. Umm, maybe you should call it a day.",
+      "exits": [
+        {
+          "name": "Sun",
+          "room id": "Sun"
+        },
+        {
+          "name": "Mercury",
+          "room id": "Mercury"
+        },
+        {
+          "name": "Venus",
+          "room id": "Venus"
+        },
+        {
+          "name": "Moon",
+          "room id": "Black Hole"
+        },
+        {
+          "name": "Earth",
+          "room id": "Black Hole"
+        },
+        {
+          "name": "Mars",
+          "room id": "Death"
+        },
+        {
+          "name": "Jupiter",
+          "room id": "Death"
+        },
+        {
+          "name": "Saturn",
+          "room id": "Death"
+        },
+        {
+          "name": "Uranus",
+          "room id": "Death"
+        },
+        {
+          "name": "Neptune",
+          "room id": "Death"
+        },
+        {
+          "name": "Pluto",
+          "room id": "Death"
+        }
+      ]
+    },
+    {
+      "id": "Sun",
+      "description": "You are on the Sun! The temperature here is so high that you would have vaporized instantly had you no learnt the protection magic. Your gut instinct forced the words 'Protego Totalum!' out of you and your body stopped disintegrating. However, the heat waves still prevented you from moving onwards, pass the Sun.",
+      "exits": [
+        {
+          "name": "Sun",
+          "room id": "Sun"
+        },
+        {
+          "name": "Mercury",
+          "room id": "Mercury"
+        },
+        {
+          "name": "Venus",
+          "room id": "Black Hole"
+        },
+        {
+          "name": "Moon",
+          "room id": "Death"
+        },
+        {
+          "name": "Earth",
+          "room id": "Black Hole"
+        },
+        {
+          "name": "Mars",
+          "room id": "Death"
+        },
+        {
+          "name": "Jupiter",
+          "room id": "Death"
+        },
+        {
+          "name": "Saturn",
+          "room id": "Death"
+        },
+        {
+          "name": "Uranus",
+          "room id": "Death"
+        },
+        {
+          "name": "Neptune",
+          "room id": "Death"
+        },
+        {
+          "name": "Pluto",
+          "room id": "Death"
+        }
+      ]
+    },
+    {
+      "id": "Mars",
+      "description": "On Mars, you found an automoton that seems to be holding a piece of paper in its clutches. With great care, you managed to extract that tattered note from the automaton's hands using pattern matching that you've learnt in CS3110. It writes: 'Worksheet of Magic Travel by Albus Dumbledore, college of Magic 26'. Stars discovered : Earth, Moon, Venus, Mercury, Sun, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto. Student Status: Graduated.' On the back of the note, you found some hand-written words that are hard to identify : '... only ... take small steps that ... magic can manage, otherewise you might find ... lost in eternal darkness... Remember ... Earth ... is always your last hope.'",
+      "exits": [
+        {
+          "name": "Sun",
+          "room id": "Death"
+        },
+        {
+          "name": "Mercury",
+          "room id": "Death"
+        },
+        {
+          "name": "Venus",
+          "room id": "Death"
+        },
+        {
+          "name": "Moon",
+          "room id": "Death"
+        },
+        {
+          "name": "Earth",
+          "room id": "Earth"
+        },
+        {
+          "name": "Mars",
+          "room id": "Mars"
+        },
+        {
+          "name": "Jupiter",
+          "room id": "Jupiter"
+        },
+        {
+          "name": "Saturn",
+          "room id": "Black Hole"
+        },
+        {
+          "name": "Uranus",
+          "room id": "Death"
+        },
+        {
+          "name": "Neptune",
+          "room id": "Death"
+        },
+        {
+          "name": "Pluto",
+          "room id": "Death"
+        }
+      ]
+    },
+    {
+      "id": "Jupiter",
+      "description": "You picked up a map on Jupiter that says : Jupiter is more than twice as massive than the other planets of our solar system combined. The giant planet's Great Red spot is a centuries-old storm bigger than Earth. You decided that the map would look nice on the wall of your outhouse and put it into your magic storage ring.",
+      "exits": [
+        {
+          "name": "Sun",
+          "room id": "Death"
+        },
+        {
+          "name": "Mercury",
+          "room id": "Death"
+        },
+        {
+          "name": "Venus",
+          "room id": "Death"
+        },
+        {
+          "name": "Moon",
+          "room id": "Death"
+        },
+        {
+          "name": "Earth",
+          "room id": "Black Hole"
+        },
+        {
+          "name": "Mars",
+          "room id": "Mars"
+        },
+        {
+          "name": "Jupiter",
+          "room id": "Jupiter"
+        },
+        {
+          "name": "Saturn",
+          "room id": "Saturn"
+        },
+        {
+          "name": "Uranus",
+          "room id": "Black Hole"
+        },
+        {
+          "name": "Neptune",
+          "room id": "Death"
+        },
+        {
+          "name": "Pluto",
+          "room id": "Death"
+        }
+      ]
+    },
+    {
+      "id": "Saturn",
+      "description": "Saturn is your favorite planet! You just like how the adorable, gigantic rings that reminded you of the donut that you ate this morning. Ummmm, maybe it's a good idea to taste some fo the rings. However, you gave up trying after the magic 'go Ring' or 'go Tethys' or 'go Mimas' all went wrong. SSSShhhhhhhh, don't let your Magic Professor find out that you only memorized two of Saturn's ring names!",
+      "exits": [
+        {
+          "name": "Sun",
+          "room id": "Death"
+        },
+        {
+          "name": "Mercury",
+          "room id": "Death"
+        },
+        {
+          "name": "Venus",
+          "room id": "Death"
+        },
+        {
+          "name": "Moon",
+          "room id": "Death"
+        },
+        {
+          "name": "Earth",
+          "room id": "Black Hole"
+        },
+        {
+          "name": "Mars",
+          "room id": "Black Hole"
+        },
+        {
+          "name": "Jupiter",
+          "room id": "Jupiter"
+        },
+        {
+          "name": "Saturn",
+          "room id": "Saturn"
+        },
+        {
+          "name": "Uranus",
+          "room id": "Uranus"
+        },
+        {
+          "name": "Neptune",
+          "room id": "Black Hole"
+        },
+        {
+          "name": "Pluto",
+          "room id": "Death"
+        }
+      ]
+    },
+    {
+      "id": "Uranus",
+      "description": "You are on Uranus. You roughly remembered your Time Magic Professor telling you that the length of year on this ice giant is 84 times of an Earth Year. Look! There's a bunny rabbit!",
+      "exits": [
+        {
+          "name": "Sun",
+          "room id": "Death"
+        },
+        {
+          "name": "Mercury",
+          "room id": "Death"
+        },
+        {
+          "name": "Venus",
+          "room id": "Death"
+        },
+        {
+          "name": "Moon",
+          "room id": "Death"
+        },
+        {
+          "name": "Earth",
+          "room id": "Black Hole"
+        },
+        {
+          "name": "Mars",
+          "room id": "Death"
+        },
+        {
+          "name": "Jupiter",
+          "room id": "Black Hole"
+        },
+        {
+          "name": "Saturn",
+          "room id": "Saturn"
+        },
+        {
+          "name": "Uranus",
+          "room id": "Uranus"
+        },
+        {
+          "name": "Neptune",
+          "room id": "Neptune"
+        },
+        {
+          "name": "Pluto",
+          "room id": "Black Hole"
+        }
+      ]
+    },
+    {
+      "id": "Neptune",
+      "description": "Now you are 30.1 AU from the Sun! You remembered that Neptune is the Roman God of the Sea. With an inborn fear of the water and spiders, you decided not to stay too long on Neptune.",
+      "exits": [
+        {
+          "name": "Sun",
+          "room id": "Death"
+        },
+        {
+          "name": "Mercury",
+          "room id": "Death"
+        },
+        {
+          "name": "Venus",
+          "room id": "Death"
+        },
+        {
+          "name": "Moon",
+          "room id": "Death"
+        },
+        {
+          "name": "Earth",
+          "room id": "Black Hole"
+        },
+        {
+          "name": "Mars",
+          "room id": "Death"
+        },
+        {
+          "name": "Jupiter",
+          "room id": "Death"
+        },
+        {
+          "name": "Saturn",
+          "room id": "Black Hole"
+        },
+        {
+          "name": "Uranus",
+          "room id": "Uranus"
+        },
+        {
+          "name": "Neptune",
+          "room id": "Neptune"
+        },
+        {
+          "name": "Pluto",
+          "room id": "Pluto"
+        }
+      ]
+    },
+    {
+      "id": "Pluto",
+      "description": "Pluto is a complex world of ice mountains and frozen plains. Once considered the ninth planet, Pluto is the largest member of the Kuiper Belt and the best known of a new class of worlds called dwarf planets. On Pluto, you discovered a jumping rabbit with red fur! You've decided that it's the outmost planet that you want to go, and you are excited to return home to tell your Cornell Prophecy professor that red rabbits do live on Pluto, just like what you predicted ten years ago! Alas, the rabbit doesn't seem to fit in your magic ring...",
+      "exits": [
+        {
+          "name": "Sun",
+          "room id": "Death"
+        },
+        {
+          "name": "Mercury",
+          "room id": "Death"
+        },
+        {
+          "name": "Venus",
+          "room id": "Death"
+        },
+        {
+          "name": "Moon",
+          "room id": "Death"
+        },
+        {
+          "name": "Earth",
+          "room id": "Black Hole"
+        },
+        {
+          "name": "Mars",
+          "room id": "Death"
+        },
+        {
+          "name": "Jupiter",
+          "room id": "Death"
+        },
+        {
+          "name": "Saturn",
+          "room id": "Death"
+        },
+        {
+          "name": "Uranus",
+          "room id": "Black Hole"
+        },
+        {
+          "name": "Neptune",
+          "room id": "Neptune"
+        },
+        {
+          "name": "Pluto",
+          "room id": "Pluto"
+        }
+      ]
+    },
+    {
+      "id": "Black Hole",
+      "description": "Oh no! You've overused you magic! That made your interstellar jump unstable and now you have mistakenly teleported yourself into the Black Hole! One final magic is all that you can manage, the one that you have practiced for millions of times, the one that will lead you back to your dearest memories. With one final effort, you yelled: ",
+      "exits": [
+        {
+          "name": "home",
+          "room id": "Earth"
+        },
+        {
+          "name": "Home",
+          "room id": "Earth"
+        },
+        {
+          "name": "Earth",
+          "room id": "Earth"
+        },
+        {
+          "name": "earth",
+          "room id": "Earth"
+        },
+        {
+          "name": "",
+          "room id": "Death"
+        },
+        {
+          "name": "Sun",
+          "room id": "Death"
+        },
+        {
+          "name": "Mercury",
+          "room id": "Death"
+        },
+        {
+          "name": "Venus",
+          "room id": "Death"
+        },
+        {
+          "name": "Mars",
+          "room id": "Death"
+        },
+        {
+          "name": "Jupiter",
+          "room id": "Death"
+        },
+        {
+          "name": "Saturn",
+          "room id": "Death"
+        },
+        {
+          "name": "Uranus",
+          "room id": "Death"
+        },
+        {
+          "name": "Neptune",
+          "room id": "Death"
+        },
+        {
+          "name": "Pluto",
+          "room id": "Death"
+        },
+        {
+          "name": "Moon",
+          "room id": "Death"
+        }
+      ]
+    },
+    {
+      "id": "Death",
+      "description": "You have managed to kill yourself. Sad. You died in your mission of exploring the universe. There is only one thing that you can do: use the quit magic to restart this game",
+      "exits": []
+    }
+  ],
+  "start room": "Earth"
+}

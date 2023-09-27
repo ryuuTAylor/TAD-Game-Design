@@ -1,0 +1,45 @@
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: Start test test suite for A2:0:order is irrelevant.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: Test test suite for A2:0:order is irrelevant is successful.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: End test test suite for A2:0:order is irrelevant.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: Start test test suite for A2:3:ho's room ids.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: Test test suite for A2:3:ho's room ids is successful.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: End test test suite for A2:3:ho's room ids.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: Start test test suite for A2:4:ho's room ids.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: Test test suite for A2:4:ho's room ids is successful.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: End test test suite for A2:4:ho's room ids.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: Start test test suite for A2:6:lonely's description of the room.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: Test test suite for A2:6:lonely's description of the room is successful.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: End test test suite for A2:6:lonely's description of the room.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: Start test test suite for A2:8:lonely raises UnknownRoom kitchen.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: Test test suite for A2:8:lonely raises UnknownRoom kitchen is successful.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: End test test suite for A2:8:lonely raises UnknownRoom kitchen.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: Start test test suite for A2:10:lonely's the room has no exit.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: Test test suite for A2:10:lonely's the room has no exit is successful.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: End test test suite for A2:10:lonely's the room has no exit.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: Start test test suite for A2:12:lonely raises UnknownRoom kitchen.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: Test test suite for A2:12:lonely raises UnknownRoom kitchen is successful.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: End test test suite for A2:12:lonely raises UnknownRoom kitchen.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: Start test test suite for A2:14:ho's health raises UnknownExit northwest.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: Test test suite for A2:14:ho's health raises UnknownExit northwest is successful.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: End test test suite for A2:14:ho's health raises UnknownExit northwest.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: Start test test suite for A2:16:ho's ho plaza has next rooms health and tower.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: Test test suite for A2:16:ho's ho plaza has next rooms health and tower is successful.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: End test test suite for A2:16:ho's ho plaza has next rooms health and tower.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: Start test test suite for A2:17:command.mli example 1.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: Test test suite for A2:17:command.mli example 1 is successful.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: End test test suite for A2:17:command.mli example 1.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: Start test test suite for A2:19:command.mli example 2.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: Test test suite for A2:19:command.mli example 2 is successful.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: End test test suite for A2:19:command.mli example 2.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: Start test test suite for A2:21:misspelled verb command raises malformed.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: Test test suite for A2:21:misspelled verb command raises malformed is successful.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: End test test suite for A2:21:misspelled verb command raises malformed.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: Start test test suite for A2:23:quit with non-empty object phrase command raises malformed.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: Test test suite for A2:23:quit with non-empty object phrase command raises malformed is successful.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: End test test suite for A2:23:quit with non-empty object phrase command raises malformed.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: Start test test suite for A2:26:initial state of ho exits from southwest is legal.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: Test test suite for A2:26:initial state of ho exits from southwest is legal is successful.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: End test test suite for A2:26:initial state of ho exits from southwest is legal.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: Start test test suite for A2:28:initial state of ho exits from east is illegal.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: Test test suite for A2:28:initial state of ho exits from east is illegal is successful.
+2023-03-01T19:47:58+00:00 dhcp-vl2042-6703.redrover.cornell.edu#01 I: End test test suite for A2:28:initial state of ho exits from east is illegal.

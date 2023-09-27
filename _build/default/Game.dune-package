@@ -1,0 +1,73 @@
+(lang dune 3.6)
+(name Game)
+(sections (lib .) (libexec .) (doc ../../doc/Game))
+(files
+ (lib
+  (META
+   adventure.ml
+   adventure.mli
+   author.ml
+   author.mli
+   command.ml
+   command.mli
+   dune-package
+   game.a
+   game.cma
+   game.cmi
+   game.cmt
+   game.cmx
+   game.cmxa
+   game.ml
+   game__Adventure.cmi
+   game__Adventure.cmt
+   game__Adventure.cmti
+   game__Adventure.cmx
+   game__Author.cmi
+   game__Author.cmt
+   game__Author.cmti
+   game__Author.cmx
+   game__Command.cmi
+   game__Command.cmt
+   game__Command.cmti
+   game__Command.cmx
+   game__State.cmi
+   game__State.cmt
+   game__State.cmti
+   game__State.cmx
+   opam
+   state.ml
+   state.mli))
+ (libexec (game.cmxs))
+ (doc (LICENSE)))
+(library
+ (name Game)
+ (kind normal)
+ (archives (byte game.cma) (native game.cmxa))
+ (plugins (byte game.cma) (native game.cmxs))
+ (native_archives game.a)
+ (requires yojson ANSITerminal)
+ (main_module_name Game)
+ (modes byte native)
+ (modules
+  (wrapped
+   (main_module_name Game)
+   (modules
+    ((name Adventure)
+     (obj_name game__Adventure)
+     (visibility public)
+     (impl)
+     (intf))
+    ((name Author) (obj_name game__Author) (visibility public) (impl) (intf))
+    ((name Command)
+     (obj_name game__Command)
+     (visibility public)
+     (impl)
+     (intf))
+    ((name State) (obj_name game__State) (visibility public) (impl) (intf)))
+   (alias_module
+    (name Game)
+    (obj_name game)
+    (visibility public)
+    (kind alias)
+    (impl))
+   (wrapped true))))
